@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+      // Redirigir a la página principal con HashRouter
+      const path = window.location.pathname + window.location.search + window.location.hash;
+      if (!path.includes('#')) {
+        window.location.href = '/EcoMarket/#' + (path.replace('/EcoMarket/', '') || '/');
+      }
+    </script>
+    <meta http-equiv="refresh" content="0;URL='/EcoMarket/'">
+  </head>
+  <body>
+    <h1>Redirecting...</h1>
+    <p>Si la pagina no lo redirecciona automaticamente, <a href="/EcoMarket/">presióne este enlace.</a>.</p>
+  </body>
+</html>
