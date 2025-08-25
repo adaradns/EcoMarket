@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --color-ecoGreen-100: #d4f4e0;
+  --color-ecoGreen-500: #2ecc71;
+  --color-ecoGreen-700: #27ae60;
+  --color-ecoGreen-900: #1e8449;
+  --color-ecoBrown-100: #f6e6d5;
+  --color-ecoBrown-500: #d35400;
+  --color-ecoBrown-700: #a04000;
+}
+
+@theme inline {
+  --color-ecoGreen-100: var(--color-ecoGreen-100);
+  --color-ecoGreen-500: var(--color-ecoGreen-500);
+  --color-ecoGreen-700: var(--color-ecoGreen-700);
+  --color-ecoGreen-900: var(--color-ecoGreen-900);
+  --color-ecoBrown-100: var(--color-ecoBrown-100);
+  --color-ecoBrown-500: var(--color-ecoBrown-500);
+  --color-ecoBrown-700: var(--color-ecoBrown-700);
+}
